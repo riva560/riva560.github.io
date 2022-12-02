@@ -1,0 +1,102 @@
+
+
+li{
+    float:left;
+    overflow: hidden;
+}
+
+/* formatting and color for navigation bar */
+.navigation{
+ display: block;
+    color:#000;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* formatting ad background color for unordered list */
+ul{
+    margin:0;
+    padding: 0;
+    background-color: lavender;
+    overflow: hidden;
+}
+
+/* change color of navigation bar tab that the user is currently on */
+.active{
+    background-color: lightskyblue;
+}
+
+/* change color of navigation bar tab that the user is hovering over when it is not active*/
+li a:hover:not(.active){
+    background-color: rgb(155, 139, 248);
+}
+
+/* font of text for body */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* formatting and color for the project information cards */
+.card{
+    width:50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height:450px;
+    background-color: lavenderblush;
+    margin: 20px;
+}
+
+/* formatting and color for the google form */
+.form{
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:auto;
+    margin-top:50px;
+}
+
+/* container for the project cards to help with formatting */
+.container{
+    padding: 2px 16px;
+}
+
+/* to ensure the project cards are flushed in the same column */
+.column{
+    float: left;
+    width:50%;
+}
+
+/* formatting for project cards */
+.row:after{
+    display:table;
+    clear:both;
+    content:"";
+    align-items:center;
+
+}
+
+/* to make items in the center of the page */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.middle{
+    display: block;
+    margin-left:350px;
+    margin-right: auto;
+    width:100%;
+}
+
+/* padding for text on pages */
+.bio{
+    padding:10px 65px 10px 25px;
+}
+
+/* large font size for paragraphs */
+p{
+    font-size: large;
+}
